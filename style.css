@@ -1,0 +1,282 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+}
+
+
+.sap{
+  height: 100px;
+  width: 100%;
+  background: #0000;
+  box-shadow: 0 0 5px;
+  overflow: hidden;
+  border-color: #ffff;
+  position: relative;
+  padding-top: 120px;
+  
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+nav ul li{
+
+  list-style-type: none;
+  display: inline-block;
+  border: 2px inset;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+.fcc-btn{
+  color: black;
+  text-decoration: none;
+  padding-right: 50px;
+ 
+}
+button{
+  color: #39ff14;
+  background-color: #39ff14;
+  border-radius: 50px;
+  border-color: black;
+  border-style: solid;
+  cursor: pointer;
+  box-shadow: 0 0 5px #39ff14, 0 0 25px #39ff14;
+  font-family: faf;
+  width: 400px;
+  font-size: 40px;
+  text-align: center;
+}
+
+p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+@font-face{
+font-family: faf;
+src: url('fafaf.otf') format('opentype');
+}
+
+ul{
+  color: white;
+  list-style-type: none;
+}
+ul li::before{
+  color: white;
+}
+
+.github{
+  text-decoration: underline;
+   font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.github:hover{
+  color: #eb0000;
+}
+
+.image__img{
+  display: flex;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  justify-content: center;
+  border-style: inset;
+  border-color: #39ff14;
+  box-shadow: 0 0 55px #39ff14, 0 0 55px #39ff14;
+  margin-top: 90px;
+
+}
+
+.big{
+  color: white;
+  text-decoration: underline;
+  text-shadow: 0 0 7px #a6a0a0,
+                0 0 10px #a6a0a0,
+                0 0 21px #a6a0a0,
+                0 0 42px #39ff14,
+                0 0 82px #39ff14,
+                0 0 92px #39ff14,
+                0 0 102px #39ff14,
+                0 0 151px #39ff14;
+  font-family: faf;
+  align-items: center;
+  padding-top: 40px;
+  text-align: center;
+  
+}
+
+about{
+  margin-top: 300px;
+}
+
+
+
+.sobre{
+  text-align: center;
+  
+}
+
+.finalpag{
+  align-items: center;
+  font-family: faf;
+  padding-bottom: 50px;
+}
+
+
+.a{
+  padding-top: 5px;
+  list-style-type: none;
+}
+
+.nav-fcc{
+  align-items: center;
+  padding-top: 50px;
+  justify-content: center;
+  
+}
+
+.fcc-btnsessao{
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+.finalpag{
+  align-items: center;
+  padding-left: 530px;
+}
+
+.cont{
+  font-size: 35px;
+}
+
+.linkd{
+  color: #fff;
+  font-family: sans-serif;
+}
+.linkd:hover{
+
+  color: #eb0000;
+  
+}
+.compt{
+  font-family: faf;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+.compt h2{
+  text-align: center;
+  text-shadow: 0 0 7px #a6a0a0,
+                0 0 10px #a6a0a0,
+                0 0 21px #a6a0a0,
+                0 0 42px #444c42,
+                0 0 82px #3e423e,
+                0 0 92px #39ff14,
+                0 0 102px #222621,
+                0 0 151px #161816;
+  
+}
+
+/* .container{
+  flex-direction: column;
+} */
+
+.text{
+  font-family:  'Montserrat', sans-serif;
+  letter-spacing: 10px;
+  font-size: 5em;
+  border-right: 5px solid;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  animation: 
+  typing 2s,
+    cursor .4s step-end infinite alternate;
+  -webkit-animation-iteration-count: 2;
+  animation-delay: 2s;
+}
+
+@keyframes cursor{
+  50%{border-color: transparent}
+}
+@keyframes typing{
+  from{width: 0}
+}
+
+.a{
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  width: 100%;
+  padding: 30px 0;
+}
+
+footer h3{
+  text-align: center;
+  margin-top: 200px;
+  font-family: faf;
+  font-size: 30px;
+}
+
+.testelista{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 50px auto 0 auto;
+
+  align-items: center;
+/*   padding-right: 500px; */
+  font-size: 20px;
+  color:white;
+  
+}
+
+#contatostest{
+  color: black;
+  background-color: #39ff14;
+  padding: 5px 25px;
+  border-radius: 30px;
+  border-color: black;
+  border-style: solid;
+  cursor: pointer;
+  box-shadow: 0 0 5px #39ff14, 0 0 25px #39ff14;
+  width: 500px;
+  text-align: center;
+   align-items: center;
+  margin: 0 auto;
+  
+/*   
+  font-weight: 900;
+  
+  */
+}
+.simbolo{  
+  display: flex;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
